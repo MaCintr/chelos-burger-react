@@ -1,0 +1,32 @@
+import Container from "react-bootstrap/Container"
+import Nav from "react-bootstrap/Nav"
+import Navbar from "react-bootstrap/Navbar"
+import Offcanvas from "react-bootstrap/Offcanvas"
+
+const NavBarComponent = () => {
+    return (
+        <>
+            <Navbar expand={'false'} className="bg-body-tertiary">
+                <Container>
+                    <Navbar.Brand><img className="rounded-pill" alt="Chelo's Burger" src="images/chelos-logo.jpg" height={80} width={80} /></Navbar.Brand>
+                    <Navbar.Toggle aria-controls={'offcanvasNavbar-expand-false'}><i className="bi bi-bag"></i></Navbar.Toggle>
+                    <Navbar.Offcanvas
+                        aria-labelledby={'offcanvasNavbar-expand-false'}
+                        placement="end"
+                    >
+                    <Offcanvas.Header closeButton>
+                        <Offcanvas.Title>
+                            <h2>Minha Sacola</h2>
+                        </Offcanvas.Title>
+                    </Offcanvas.Header>
+                    <Offcanvas.Body>
+
+                    </Offcanvas.Body>
+                    </Navbar.Offcanvas>
+                </Container>
+            </Navbar>
+        </>
+    )
+}
+
+export default NavBarComponent

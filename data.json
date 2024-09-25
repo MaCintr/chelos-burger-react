@@ -1,0 +1,225 @@
+{
+    "menu": {
+      "Burgers": [
+        {
+          "name": "Classic Burger",
+          "description": "Hambúrguer de carne bovina, queijo cheddar, alface, tomate, cebola e molho especial.",
+          "price": 25.90,
+          "isVegan": false,
+          "containsGluten": true
+        },
+        {
+          "name": "Vegan Delight",
+          "description": "Hambúrguer vegano de grão-de-bico, alface, tomate, cebola e maionese vegana.",
+          "price": 28.50,
+          "isVegan": true,
+          "containsGluten": false
+        },
+        {
+          "name": "BBQ Bacon Burger",
+          "description": "Hambúrguer de carne bovina com bacon crocante, cheddar, cebola caramelizada e molho barbecue.",
+          "price": 29.90,
+          "isVegan": false,
+          "containsGluten": true
+        },
+        {
+          "name": "Chicken Burger",
+          "description": "Filé de frango grelhado, queijo suíço, alface e molho de mostarda e mel.",
+          "price": 26.90,
+          "isVegan": false,
+          "containsGluten": true
+        },
+        {
+          "name": "Double Cheeseburger",
+          "description": "Dois hambúrgueres de carne bovina com cheddar duplo, picles e molho especial.",
+          "price": 33.90,
+          "isVegan": false,
+          "containsGluten": true
+        },
+        {
+          "name": "Spicy Jalapeño Burger",
+          "description": "Hambúrguer de carne bovina com queijo pepper jack, jalapeños picantes e molho chipotle.",
+          "price": 27.50,
+          "isVegan": false,
+          "containsGluten": true
+        },
+        {
+          "name": "Mushroom Swiss Burger",
+          "description": "Hambúrguer de carne com cogumelos salteados e queijo suíço derretido.",
+          "price": 30.90,
+          "isVegan": false,
+          "containsGluten": true
+        },
+        {
+          "name": "Fish Burger",
+          "description": "Filé de peixe empanado com alface, tomate e molho tártaro.",
+          "price": 24.90,
+          "isVegan": false,
+          "containsGluten": true
+        },
+        {
+          "name": "Pulled Pork Burger",
+          "description": "Hambúrguer de carne suína desfiada com coleslaw e molho barbecue.",
+          "price": 32.50,
+          "isVegan": false,
+          "containsGluten": true
+        },
+        {
+          "name": "Veggie Beetroot Burger",
+          "description": "Hambúrguer vegano de beterraba com rúcula, tomate e maionese vegana.",
+          "price": 26.90,
+          "isVegan": true,
+          "containsGluten": false
+        }
+      ],
+      "Bebidas": [
+        {
+          "name": "Refrigerante Lata",
+          "description": "Escolha entre Coca-Cola, Guaraná ou Fanta.",
+          "price": 6.00,
+          "isVegan": true,
+          "containsGluten": false
+        },
+        {
+          "name": "Água com Gás",
+          "description": "Água mineral com gás.",
+          "price": 4.50,
+          "isVegan": true,
+          "containsGluten": false
+        },
+        {
+          "name": "Água sem Gás",
+          "description": "Água mineral sem gás.",
+          "price": 4.00,
+          "isVegan": true,
+          "containsGluten": false
+        },
+        {
+          "name": "Suco Natural de Laranja",
+          "description": "Suco de laranja 100% natural, sem açúcar.",
+          "price": 8.00,
+          "isVegan": true,
+          "containsGluten": false
+        },
+        {
+          "name": "Milkshake de Chocolate",
+          "description": "Milkshake cremoso de chocolate com chantilly.",
+          "price": 14.90,
+          "isVegan": false,
+          "containsGluten": false
+        }
+      ],
+      "Sobremesas": [
+        {
+          "name": "Brownie de Chocolate",
+          "description": "Brownie quente de chocolate com sorvete de creme.",
+          "price": 12.50,
+          "isVegan": false,
+          "containsGluten": true
+        },
+        {
+          "name": "Torta de Limão",
+          "description": "Torta gelada de limão com base crocante.",
+          "price": 9.90,
+          "isVegan": false,
+          "containsGluten": true
+        },
+        {
+          "name": "Salada de Frutas",
+          "description": "Frutas da estação com calda de mel.",
+          "price": 11.00,
+          "isVegan": true,
+          "containsGluten": false
+        },
+        {
+          "name": "Sorvete Vegano de Coco",
+          "description": "Sorvete artesanal de coco, feito com leite de coco.",
+          "price": 13.90,
+          "isVegan": true,
+          "containsGluten": false
+        },
+        {
+          "name": "Petit Gateau",
+          "description": "Bolo de chocolate quente com sorvete de creme.",
+          "price": 16.50,
+          "isVegan": false,
+          "containsGluten": true
+        }
+      ],
+      "Aperitivos": [
+        {
+          "name": "Batata Frita",
+          "description": "Batata frita crocante com ketchup e maionese.",
+          "price": 12.00,
+          "isVegan": true,
+          "containsGluten": false
+        },
+        {
+          "name": "Onion Rings",
+          "description": "Anéis de cebola empanados e fritos, acompanhados de molho barbecue.",
+          "price": 13.50,
+          "isVegan": false,
+          "containsGluten": true
+        },
+        {
+          "name": "Palitos de Mozzarella",
+          "description": "Palitos de queijo mozzarella empanados e fritos.",
+          "price": 15.00,
+          "isVegan": false,
+          "containsGluten": true
+        },
+        {
+          "name": "Asinhas de Frango",
+          "description": "Asinhas de frango fritas com molho picante.",
+          "price": 18.00,
+          "isVegan": false,
+          "containsGluten": false
+        },
+        {
+          "name": "Nachos com Guacamole",
+          "description": "Nachos crocantes com guacamole e molho cheddar.",
+          "price": 22.00,
+          "isVegan": true,
+          "containsGluten": false
+        }
+      ],
+      "Saladas": [
+        {
+          "name": "Salada Caesar",
+          "description": "Alface, croutons, parmesão e molho caesar.",
+          "price": 19.90,
+          "isVegan": false,
+          "containsGluten": true
+        },
+        {
+          "name": "Salada Mediterrânea",
+          "description": "Alface, tomate, pepino, azeitonas e azeite de oliva.",
+          "price": 18.90,
+          "isVegan": true,
+          "containsGluten": false
+        },
+        {
+          "name": "Salada de Quinoa",
+          "description": "Quinoa, grão-de-bico, cenoura, tomate e molho de limão.",
+          "price": 21.50,
+          "isVegan": true,
+          "containsGluten": false
+        },
+        {
+          "name": "Salada de Frango Grelhado",
+          "description": "Frango grelhado sobre uma cama de alface, tomate e pepino.",
+          "price": 23.90,
+          "isVegan": false,
+          "containsGluten": false
+        },
+        {
+          "name": "Salada Tropical",
+          "description": "Alface, manga, abacate, castanha de caju e molho de maracujá.",
+          "price": 20.90,
+          "isVegan": true,
+          "containsGluten": false
+        }
+      ]
+    }
+  }
+  

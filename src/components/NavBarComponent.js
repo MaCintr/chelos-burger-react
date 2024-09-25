@@ -14,14 +14,18 @@ const NavBarComponent = () => {
                         aria-labelledby={'offcanvasNavbar-expand-false'}
                         placement="end"
                     >
-                    <Offcanvas.Header closeButton>
-                        <Offcanvas.Title>
-                            <h2>Minha Sacola</h2>
-                        </Offcanvas.Title>
-                    </Offcanvas.Header>
-                    <Offcanvas.Body>
-
-                    </Offcanvas.Body>
+                        <Offcanvas.Header closeButton>
+                            <Offcanvas.Title>
+                                <h2>Minha Sacola</h2>
+                            </Offcanvas.Title>
+                        </Offcanvas.Header>
+                        <Offcanvas.Body>
+                            <div className="text-center mt-5">
+                                <h4>A sacola está vazia...</h4>
+                                <i class="bi bi-bag-x" style={{fontSize: '100px'}}></i>
+                                <h5 className="fw-normal">Os itens adicionados aparecerão aqui.</h5>
+                            </div>
+                        </Offcanvas.Body>
                     </Navbar.Offcanvas>
                 </Container>
             </Navbar>

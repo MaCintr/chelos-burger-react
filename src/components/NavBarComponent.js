@@ -28,7 +28,7 @@ const NavBarComponent = () => {
                                 className="me-2"
                                 aria-label="Pesquisar"
                             />
-                            <Button variant="outline-secondary">
+                            <Button variant="outline-dark">
                                 Pesquisar
                             </Button>
                         </Form>

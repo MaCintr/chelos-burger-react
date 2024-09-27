@@ -6,6 +6,14 @@ import Form from "react-bootstrap/Form"
 import Button from "react-bootstrap/Button"
 
 const NavBarComponent = () => {
+    const changeTheme = () => {
+        const html = document.documentElement
+        if (html.getAttribute('data-bs-theme') === 'light') {
+            html.setAttribute('data-bs-theme', 'dark')
+        } else {
+            html.setAttribute('data-bs-theme', 'light')
+        }
+    }
     return (
         <div className="d-flex" style={{ width: '100%' }}>
             <Navbar expand={'lg'} className="bg-body-tertiary w-100">
@@ -21,16 +29,24 @@ const NavBarComponent = () => {
                             <Nav.Link href="#">Sobremesas</Nav.Link>
                             <Nav.Link href="#">Contato</Nav.Link>
                         </Nav>
-                        <Form className="d-flex">
+                        <Form className="d-flex align-items-center">
                             <Form.Control
                                 type="search"
                                 placeholder="Pesquisar item..."
                                 className="me-2"
                                 aria-label="Pesquisar"
                             />
-                            <Button variant="outline-dark">
+                            <Button variant="outline" className="me-2">
                                 Pesquisar
                             </Button>
+                        </Form>
+                        <Form>
+                            <Form.Check
+                                onChange={changeTheme}
+                                type="switch"
+                                id="dark-mode-switch"
+                                label="Tema Escuro"
+                            />
                         </Form>
                     </Navbar.Collapse>
                 </Container>

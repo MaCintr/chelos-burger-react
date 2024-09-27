@@ -1,0 +1,39 @@
+.banner img{
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.418));
+    height: 20vw;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translatey(-5px);
+    }
+    50% {
+        transform: translatey(5px);
+    }
+    100% {
+        transform: translatey(-5px);
+    }
+}
+
+@keyframes moveIn {
+    0% {
+        transform: translateY(500px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+    
+}
+
+.seta-animada {
+    display: inline-block;
+    animation: moveUpDown 1s ease-in-out infinite;
+}
+
+.animacao-inicial {
+    animation: moveIn 0.7s ease-in-out;
+}
+
+.items-section {
+    height: 1000px;
+}

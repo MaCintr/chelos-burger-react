@@ -4,10 +4,11 @@ import Item from "./Item"
 const ItemsList = ({ title, items }) => {
     return (
         <Container className="my-5">
-            <h1 className="fw-normal">Ofertas do dia</h1>
+            <h1 className="fw-normal">{title}</h1>
             <Container className="overflow-x-scroll d-flex">
-               {items.forEach(item => {
+               {items.map(item => {
                  <Item
+                 key={item.id}
                  name={item.name}
                  desc={item.desc}
                  price={item.price}

@@ -1,14 +1,13 @@
 import './App.css';
 import NavBarComponent from './components/NavBarComponent';
 import Banner from './components/Banner';
-import ItemsSection from './components/ItemsSection';
+import Item from './components/Item';
 
 function App() {
   return (
     <div>
       <NavBarComponent/>
       <Banner/>
-      <ItemsSection/>
     </div>
   );
 }

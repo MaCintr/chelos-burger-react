@@ -5,7 +5,7 @@ const Banner = () => {
         <StyledWrapper>
             <div className="styled-container d-flex justify-content-center align-items-center banner">
                 <div className="ms-4 text-center">
-                    <h1 className="fw-bold animacao-inicial">O MELHOR HAMBURGER DO MUNDO!</h1>
+                    <h1 className="fw-bold animacao-inicial">O MELHOR HAMBÚRGUER DO MUNDO!</h1>
                     <h5 className="animacao-inicial"><i class="bi bi-caret-down-fill seta-animada"></i> PEÇA AGORA MESMO! <i class="bi bi-caret-down-fill seta-animada"></i></h5>
                 </div>
                 <img className="my-5 animacao-inicial" src="images/hamburger.jpg" alt="Hamburger" />

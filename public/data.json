@@ -24,6 +24,7 @@
       {
         "id": 3,
         "name": "BBQ Bacon Burger",
+        "image": "https://www.omahasteaks.com/gifs/amazon/bg185.jpg",
         "description": "Hambúrguer de carne bovina de 200g com bacon crocante, queijo cheddar derretido, cebola caramelizada e molho barbecue artesanal. Especialidade da casa e um dos mais pedidos.",
         "price": 29.90,
         "discount": 0,

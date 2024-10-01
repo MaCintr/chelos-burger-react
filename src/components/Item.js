@@ -9,7 +9,7 @@ const Item = ({ name, desc, price, discount, img, isVegan, containsGluten }) => 
         <div>
             <Card style={{ width: '18rem', height: '28rem' }} className="border-secondary m-3">
                 <div className="overflow-hidden rounded-top" style={{ height: '200px' }}>
-                    <Card.Img variant="top" style={{ transform: 'translateY(-40px)' }} src={img} />
+                    <Card.Img variant="top" style={{ transform: 'translateY(-40px)'}} src={img} />
                 </div>
                 <Card.Body>
                     <Card.Title className="fs-4">{name}</Card.Title>

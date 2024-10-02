@@ -44,7 +44,7 @@
       {
         "id": 5,
         "name": "Double Cheeseburger",
-        "image": "https://tse2.mm.bing.net/th/id/OIP.B_xMsDwGIwHZDAxmQvIv7wAAAA?rs=1&pid=ImgDetMain",
+        "image": "https://nj.org/wp-content/uploads/2023/02/eighty-twenty-smash-burger-opens-in-westwood-new-jersey.jpg",
         "description": "Dois hambúrgueres de carne bovina, totalizando 360g, com queijo cheddar duplo, picles crocante e nosso molho especial. Para quem busca um sabor intenso e generoso.",
         "price": 33.90,
         "discount": 15,
@@ -54,6 +54,7 @@
       {
         "id": 6,
         "name": "Spicy Jalapeño Burger",
+        "image": "https://tse1.mm.bing.net/th/id/OIP.YXI442r_BPpqQpjL3oETPAHaFj?rs=1&pid=ImgDetMain",
         "description": "Hambúrguer de carne bovina de 180g com queijo pepper jack, jalapeños frescos picantes e molho chipotle. O preferido dos amantes de pimenta.",
         "price": 27.50,
         "discount": 0,
@@ -63,6 +64,7 @@
       {
         "id": 7,
         "name": "Mushroom Swiss Burger",
+        "image": "https://tse2.mm.bing.net/th/id/OIP.TL8JWq-iZ_JsT0O3S7_rlgHaE7?rs=1&pid=ImgDetMain",
         "description": "Hambúrguer de carne bovina de 200g com cogumelos salteados na manteiga e queijo suíço derretido. Combinação clássica e deliciosa.",
         "price": 30.90,
         "discount": 5,
@@ -72,6 +74,7 @@
       {
         "id": 8,
         "name": "Fish Burger",
+        "image": "https://images.ctfassets.net/wg46cjiqbs10/4IOS7TXpAjXGsNXmNuRX6w/57568fe6765ef09d5d4c4272c24b8f51/Best-Fish-Burger-Recipe.png",
         "description": "Filé de peixe empanado de 150g, acompanhado de alface crocante, tomate fresco e molho tártaro artesanal. Delicioso e leve.",
         "price": 24.90,
         "discount": 0,
@@ -81,6 +84,7 @@
       {
         "id": 9,
         "name": "Pulled Pork Burger",
+        "image": "https://tse3.mm.bing.net/th/id/OIP.nL4_ADQmeh7fXmtUf251dQHaHa?w=1500&h=1500&rs=1&pid=ImgDetMain",
         "description": "Hambúrguer de carne suína desfiada com 200g, coleslaw refrescante e molho barbecue defumado. Sabor marcante e cheio de textura.",
         "price": 32.50,
         "discount": 0,
@@ -90,6 +94,7 @@
       {
         "id": 10,
         "name": "Veggie Beetroot Burger",
+        "image": "https://tse4.mm.bing.net/th/id/OIP.O-1NPC5dZrmuIG-zHIZgtQHaFk?rs=1&pid=ImgDetMain",
         "description": "Hambúrguer vegano de beterraba com 150g, rúcula fresca, tomate e maionese vegana. Opção colorida e nutritiva.",
         "price": 26.90,
         "discount": 0,
@@ -101,6 +106,7 @@
       {
         "id": 11,
         "name": "Refrigerante Lata",
+        "image": "https://cdnx.jumpseller.com/distribuidora-ulloa/image/9044285/coca-cola-350cc.jpg?1636404719",
         "description": "Lata de 350ml. Escolha entre Coca-Cola, Guaraná ou Fanta. Ideal para acompanhar seu hambúrguer.",
         "price": 6.00,
         "discount": 0,
@@ -110,6 +116,7 @@
       {
         "id": 12,
         "name": "Água com Gás",
+        "image" : "https://beverages2u.com/wp-content/uploads/2020/01/san-pellegrino-33-oz-bottle-scaled.jpg",
         "description": "Garrafa de 500ml de água mineral com gás. Para refrescar seu paladar.",
         "price": 4.50,
         "discount": 0,
@@ -119,6 +126,7 @@
       {
         "id": 13,
         "name": "Água sem Gás",
+        "image" : "https://static.paodeacucar.com/img/uploads/1/384/19436384.jpg",
         "description": "Garrafa de 500ml de água mineral sem gás. Opção leve e saudável.",
         "price": 4.00,
         "discount": 0,
@@ -128,6 +136,7 @@
       {
         "id": 14,
         "name": "Suco Natural de Laranja",
+        "image" : "https://tse1.mm.bing.net/th/id/OIP.xFuO1UaFUqie7ojb25z6oAHaHa?w=768&h=768&rs=1&pid=ImgDetMain",
         "description": "Copo de 300ml de suco de laranja 100% natural, sem açúcar. Rico em vitamina C.",
         "price": 8.00,
         "discount": 0,
@@ -137,6 +146,7 @@
       {
         "id": 15,
         "name": "Milkshake de Chocolate",
+        "image" : "https://www.loveandotherspices.com/wp-content/uploads/2021/08/ChocolateMilkshake-Featured.jpg",
         "description": "Milkshake cremoso de chocolate de 400ml, finalizado com chantilly. Doce e indulgente.",
         "price": 14.90,
         "discount": 10,
@@ -148,6 +158,7 @@
       {
         "id": 16,
         "name": "Brownie de Chocolate",
+        "image" : "https://th.bing.com/th/id/R.80e3258e8d141e0798b423f64cc2f37a?rik=mjFTBM9EF3hxXw&pid=ImgRaw&r=0",
         "description": "Brownie quente de chocolate com 100g, servido com uma bola de sorvete de creme. Sobremesa indulgente para fechar com chave de ouro.",
         "price": 12.50,
         "discount": 0,
@@ -157,6 +168,7 @@
       {
         "id": 17,
         "name": "Torta de Limão",
+        "image" : "https://www.comidaereceitas.com.br/wp-content/uploads/2015/06/Mini-torta-de-limao.jpg",
         "description": "Torta gelada de limão com base crocante de 120g. Doce na medida certa, com toque cítrico.",
         "price": 9.90,
         "discount": 0,
@@ -166,6 +178,7 @@
       {
         "id": 18,
         "name": "Salada de Frutas",
+        "image" : "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/6d095c02a568b053940d03519bc54216.jpg",
         "description": "Porção de 150g de frutas da estação, servida com calda de mel. Leve e refrescante.",
         "price": 11.00,
         "discount": 10,
@@ -174,7 +187,8 @@
       },
       {
         "id": 19,
-        "name": "Sorvete Vegano de Coco",
+        "name": "Sorvete de Coco",
+        "image" : "https://folhago.com.br/blogs/receitas-faceis/wp-content/uploads/2021/06/sorvete-de-coco-caseiro.jpeg",
         "description": "Sorvete artesanal de coco, feito com leite de coco, 100g por porção. Sobremesa vegana e cremosa.",
         "price": 13.90,
         "discount": 10,
@@ -184,6 +198,7 @@
       {
         "id": 20,
         "name": "Petit Gateau",
+        "image" : "https://s2.glbimg.com/GGx5Cn-N7We2dr36iFnea6DBUxk=/1200x/smart/filters:cover():strip_icc()/s.glbimg.com/po/rc/media/2013/09/30/18_43_51_732_petit_gateau.jpg",
         "description": "Bolo de chocolate quente com 80g, acompanhado de uma bola de sorvete de creme. Uma clássica e deliciosa combinação.",
         "price": 16.50,
         "discount": 0,
@@ -195,6 +210,7 @@
       {
         "id": 21,
         "name": "Batata Frita",
+        "image" : "https://tse2.mm.bing.net/th/id/OIP.rTYH49dpkUU0ZcrmMgOp0AHaHa?w=626&h=626&rs=1&pid=ImgDetMain",
         "description": "Porção de 200g de batatas fritas crocantes, servidas com ketchup e maionese. Aperitivo clássico e perfeito para compartilhar.",
         "price": 12.00,
         "discount": 0,
@@ -204,6 +220,7 @@
       {
         "id": 22,
         "name": "Onion Rings",
+        "image" : "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Crispy-Fried-Onion-Rings_EXPS_FT20_44198_F_0501_1_home.jpg",
         "description": "Anéis de cebola empanados e fritos, porção de 150g, acompanhados de molho barbecue. Crocantes e saborosos.",
         "price": 13.50,
         "discount": 0,
@@ -213,6 +230,7 @@
       {
         "id": 23,
         "name": "Palitos de Mozzarella",
+        "image" : "https://i.ytimg.com/vi/Za6aujCelVI/maxresdefault.jpg",
         "description": "Palitos de queijo mozzarella empanados e fritos, porção de 120g. Crocância por fora, cremosidade por dentro.",
         "price": 15.00,
         "discount": 0,
@@ -222,6 +240,7 @@
       {
         "id": 24,
         "name": "Asinhas de Frango",
+        "image" : "https://www.mmo.co.mz/wp-content/uploads/2020/07/Asas-de-Frango-com-Mostarda-e-Mel.jpg",
         "description": "Asinhas de frango fritas, porção de 8 unidades, servidas com molho picante. Ideal para os amantes de sabores fortes.",
         "price": 18.00,
         "discount": 10,
@@ -231,6 +250,7 @@
       {
         "id": 25,
         "name": "Bolinhos de Arroz",
+        "image" : "https://th.bing.com/th/id/R.171267b3f70b8459d3f916528efd1add?rik=X3%2fr0Zm%2b65ihig&pid=ImgRaw&r=0",
         "description": "Bolinhos de arroz, porção com 6 unidades, servidas com geleia de pimenta. Um clássico para compartilhar.",
         "price": 20.00,
         "discount": 0,
@@ -240,6 +260,7 @@
       {
         "id": 26,
         "name": "Nachos com Guacamole",
+        "image" : "https://image.freepik.com/free-photo/guacamole-with-corn-chips-nachos-mexican-food-vegetarian-food_97840-3285.jpg",
         "description": "Nachos crocantes servidos com guacamole artesanal e molho cheddar cremoso. Perfeito para compartilhar.",
         "price": 22.00,
         "discount": 0,
@@ -251,6 +272,7 @@
       {
         "id": 27,
         "name": "Salada Caesar",
+        "image" : "https://tse2.mm.bing.net/th/id/OIP.7WAYGeYjxLBXZG0QLKwllAHaE8?rs=1&pid=ImgDetMain",
         "description": "Clássica salada Caesar com alface romana, croutons crocantes, parmesão ralado e molho Caesar. Sabor intenso e textura crocante.",
         "price": 19.90,
         "discount": 0,
@@ -260,6 +282,7 @@
       {
         "id": 28,
         "name": "Salada Mediterrânea",
+        "image" : "https://th.bing.com/th/id/R.70bfd6552e23efc47d89100e8df1bdc5?rik=lX4CdRCcp1FCuQ&riu=http%3a%2f%2fwww.meurangododia.com.br%2fwp-content%2fuploads%2f2021%2f03%2fIMG_5117-scaled.jpg&ehk=yLWidloOs9Wsr20tk3kgd3%2bsigxY3oCXzFag9%2fwD8Gk%3d&risl=&pid=ImgRaw&r=0",
         "description": "Uma combinação refrescante de alface, tomate, pepino, azeitonas e azeite de oliva. Leve e saudável, com sabores inspirados no Mediterrâneo.",
         "price": 18.90,
         "discount": 10,
@@ -269,6 +292,7 @@
       {
         "id": 29,
         "name": "Salada de Quinoa",
+        "image": "https://tse4.mm.bing.net/th/id/OIP.0z4PBBZ0XYO9KAizdDcWqgHaJj?rs=1&pid=ImgDetMain",
         "description": "Salada nutritiva com quinoa, grão-de-bico, cenoura ralada, tomate fresco e molho de limão. Rica em proteínas vegetais.",
         "price": 21.50,
         "discount": 0,
@@ -278,6 +302,7 @@
       {
         "id": 30,
         "name": "Salada de Frango Grelhado",
+        "image": "https://tse2.mm.bing.net/th/id/OIP.XERLrDlDXu_sKqin-nZBmgHaGS?rs=1&pid=ImgDetMain",
         "description": "Filé de frango grelhado servido sobre uma cama de alface fresca, tomate e pepino. Uma opção equilibrada e saborosa.",
         "price": 23.90,
         "discount": 15,
@@ -287,6 +312,7 @@
       {
         "id": 31,
         "name": "Salada Tropical",
+        "image": "https://folhago.com.br/blogs/receitas-faceis/wp-content/uploads/2022/01/salada-tropical-com-frutas-2.jpg",
         "description": "Uma combinação refrescante de alface, manga madura, abacate cremoso, castanha de caju crocante e molho de maracujá. Uma explosão de sabores tropicais.",
         "price": 20.90,
         "discount": 0,

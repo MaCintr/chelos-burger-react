@@ -34,6 +34,7 @@
       {
         "id": 4,
         "name": "Chicken Burger",
+        "image": "https://tse2.mm.bing.net/th/id/OIP.B_xMsDwGIwHZDAxmQvIv7wAAAA?rs=1&pid=ImgDetMain",
         "description": "Filé de frango grelhado de 150g, queijo suíço, alface crocante e molho de mostarda e mel caseiro. Opção leve e saborosa.",
         "price": 26.90,
         "discount": 10,
@@ -43,6 +44,7 @@
       {
         "id": 5,
         "name": "Double Cheeseburger",
+        "image": "https://tse2.mm.bing.net/th/id/OIP.B_xMsDwGIwHZDAxmQvIv7wAAAA?rs=1&pid=ImgDetMain",
         "description": "Dois hambúrgueres de carne bovina, totalizando 360g, com queijo cheddar duplo, picles crocante e nosso molho especial. Para quem busca um sabor intenso e generoso.",
         "price": 33.90,
         "discount": 15,

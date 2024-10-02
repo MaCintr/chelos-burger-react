@@ -15,23 +15,9 @@
     }
 }
 
-@keyframes moveIn {
-    0% {
-        transform: translateY(500px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
-    
-}
-
 .seta-animada {
     display: inline-block;
     animation: moveUpDown 1s ease-in-out infinite;
-}
-
-.animacao-inicial {
-    animation: moveIn 0.7s ease-in-out;
 }
 
 .items-section {

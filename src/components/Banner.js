@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const Banner = () => {
     return (
-        <StyledWrapper>
+        <StyledWrapper className="z-0">
             <div className="styled-container d-flex justify-content-center align-items-center banner">
                 <div className="ms-4 text-center">
                     <h1 className="fw-bold animacao-inicial">O MELHOR HAMBÚRGUER DO MUNDO!</h1>

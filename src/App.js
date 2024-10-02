@@ -4,6 +4,7 @@ import Banner from './components/Banner';
 import { useEffect, useState } from 'react';
 import Deals from './components/Deals';
 import Burgers from './components/Burgers'
+import LoadingItemList from './components/LoadingItemList';
 
 function App() {
   const [data, setData] = useState(null);
@@ -22,14 +23,17 @@ function App() {
     <div>
       <NavBarComponent />
       <Banner />
-      {/* Verifique se `data` e `data.Burgers` existem antes de renderizar o componente Deals */}
-      {data && data.Burgers ? (
+      
+      {data ? (
         <>
           <Deals items={data} />
-          <Burgers items={data}/>
+          <Burgers items={data} />
         </>
       ) : (
-        <p>Carregando...</p>
+        <>
+          <LoadingItemList />
+          <LoadingItemList />
+        </>
       )}
     </div>
   );

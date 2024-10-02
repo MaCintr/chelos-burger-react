@@ -3,7 +3,7 @@ import Item from "./Item"
 
 const ItemsList = ({ title, items }) => {
     return (
-        <Container className="my-5">
+        <Container className="my-5 z-3">
             <h1 className="fw-normal">{title}</h1>
             <Container className="overflow-x-scroll d-flex">
                 {items.map(item => (

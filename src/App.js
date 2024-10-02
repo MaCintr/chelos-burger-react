@@ -3,7 +3,6 @@ import NavBarComponent from './components/NavBarComponent';
 import Banner from './components/Banner';
 import { useEffect, useState } from 'react';
 import Deals from './components/Deals';
-import Burgers from './components/Burgers'
 import LoadingItemList from './components/LoadingItemList';
 import ItemsList from './components/ItemsList';
 
@@ -29,10 +28,10 @@ function App() {
         <>
           <Deals items={data} />
           <ItemsList title={'Burgers'} items={data.Burgers} />
+          <ItemsList title={'Saladas'} items={data.Saladas} />
           <ItemsList title={'Aperitivos'} items={data.Aperitivos} />
           <ItemsList title={'Sobremesas'} items={data.Sobremesas} />
           <ItemsList title={'Bebidas'} items={data.Bebidas} />
-          <ItemsList title={'Saladas'} items={data.Saladas} />
         </>
       ) : (
         <>

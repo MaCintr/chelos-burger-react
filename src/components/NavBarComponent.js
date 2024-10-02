@@ -22,11 +22,12 @@ const NavBarComponent = () => {
                     <Navbar.Toggle aria-controls={'basic-navbar-nav'}></Navbar.Toggle>
                     <Navbar.Collapse>
                         <Nav className="me-auto">
-                            <Nav.Link href="#">Home</Nav.Link>
+                            <Nav.Link href="#">Ofertas</Nav.Link>
                             <Nav.Link href="#">Burgers</Nav.Link>
-                            <Nav.Link href="#">Acompanhamentos</Nav.Link>
-                            <Nav.Link href="#">Bebidas</Nav.Link>
+                            <Nav.Link href="#">Saladas</Nav.Link>
+                            <Nav.Link href="#">Aperitivos</Nav.Link>
                             <Nav.Link href="#">Sobremesas</Nav.Link>
+                            <Nav.Link href="#">Bebidas</Nav.Link>
                             <Nav.Link href="#">Contato</Nav.Link>
                         </Nav>
                         <Form className="d-flex align-items-center">

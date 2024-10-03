@@ -37,7 +37,7 @@
         "image": "https://tse2.mm.bing.net/th/id/OIP.B_xMsDwGIwHZDAxmQvIv7wAAAA?rs=1&pid=ImgDetMain",
         "description": "Filé de frango grelhado de 150g, queijo suíço, alface crocante e molho de mostarda e mel caseiro. Opção leve e saborosa.",
         "price": 26.90,
-        "discount": 10,
+        "discount": 20,
         "isVegan": false,
         "containsGluten": true
       },
@@ -47,7 +47,7 @@
         "image": "https://nj.org/wp-content/uploads/2023/02/eighty-twenty-smash-burger-opens-in-westwood-new-jersey.jpg",
         "description": "Dois hambúrgueres de carne bovina, totalizando 360g, com queijo cheddar duplo, picles crocante e nosso molho especial. Para quem busca um sabor intenso e generoso.",
         "price": 33.90,
-        "discount": 15,
+        "discount": 20,
         "isVegan": false,
         "containsGluten": true
       },
@@ -67,7 +67,7 @@
         "image": "https://tse2.mm.bing.net/th/id/OIP.TL8JWq-iZ_JsT0O3S7_rlgHaE7?rs=1&pid=ImgDetMain",
         "description": "Hambúrguer de carne bovina de 200g com cogumelos salteados na manteiga e queijo suíço derretido. Combinação clássica e deliciosa.",
         "price": 30.90,
-        "discount": 5,
+        "discount": 15,
         "isVegan": false,
         "containsGluten": true
       },
@@ -149,7 +149,7 @@
         "image" : "https://www.loveandotherspices.com/wp-content/uploads/2021/08/ChocolateMilkshake-Featured.jpg",
         "description": "Milkshake cremoso de chocolate de 400ml, finalizado com chantilly. Doce e indulgente.",
         "price": 14.90,
-        "discount": 10,
+        "discount": 20,
         "isVegan": false,
         "containsGluten": false
       }
@@ -181,7 +181,7 @@
         "image" : "https://www.receitasnestle.com.br/sites/default/files/srh_recipes/6d095c02a568b053940d03519bc54216.jpg",
         "description": "Porção de 150g de frutas da estação, servida com calda de mel. Leve e refrescante.",
         "price": 11.00,
-        "discount": 10,
+        "discount": 20,
         "isVegan": true,
         "containsGluten": false
       },
@@ -191,7 +191,7 @@
         "image" : "https://folhago.com.br/blogs/receitas-faceis/wp-content/uploads/2021/06/sorvete-de-coco-caseiro.jpeg",
         "description": "Sorvete artesanal de coco, feito com leite de coco, 100g por porção. Sobremesa vegana e cremosa.",
         "price": 13.90,
-        "discount": 10,
+        "discount": 20,
         "isVegan": true,
         "containsGluten": false
       },
@@ -243,7 +243,7 @@
         "image" : "https://www.mmo.co.mz/wp-content/uploads/2020/07/Asas-de-Frango-com-Mostarda-e-Mel.jpg",
         "description": "Asinhas de frango fritas, porção de 8 unidades, servidas com molho picante. Ideal para os amantes de sabores fortes.",
         "price": 18.00,
-        "discount": 10,
+        "discount": 15,
         "isVegan": false,
         "containsGluten": false
       },
@@ -305,7 +305,7 @@
         "image": "https://tse2.mm.bing.net/th/id/OIP.XERLrDlDXu_sKqin-nZBmgHaGS?rs=1&pid=ImgDetMain",
         "description": "Filé de frango grelhado servido sobre uma cama de alface fresca, tomate e pepino. Uma opção equilibrada e saborosa.",
         "price": 23.90,
-        "discount": 15,
+        "discount": 20,
         "isVegan": false,
         "containsGluten": false
       },

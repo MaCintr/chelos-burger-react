@@ -10,7 +10,7 @@ function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch('/data.json')
+    fetch('https://demo4946018.mockable.io/chelos-burger')
       .then(response => response.json())
       .then(menuData => {
         console.log(menuData);
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div>
-      <NavBarComponent />
+      <NavBarComponent items={data}/>
       <Banner />
       
       {data ? (

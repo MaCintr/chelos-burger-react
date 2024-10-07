@@ -3,9 +3,9 @@ import Nav from "react-bootstrap/Nav"
 import Navbar from "react-bootstrap/Navbar"
 import Offcanvas from "react-bootstrap/Offcanvas"
 import Form from "react-bootstrap/Form"
-import Button from "react-bootstrap/Button"
+import FormSearch from "./FormSearch"
 
-const NavBarComponent = () => {
+const NavBarComponent = ({ items }) => {
     const changeTheme = () => {
         const html = document.documentElement
         if (html.getAttribute('data-bs-theme') === 'light') {
@@ -30,17 +30,7 @@ const NavBarComponent = () => {
                             <Nav.Link href="#">Bebidas</Nav.Link>
                             <Nav.Link href="#">Contato</Nav.Link>
                         </Nav>
-                        <Form className="d-flex align-items-center">
-                            <Form.Control
-                                type="search"
-                                placeholder="Pesquisar item..."
-                                className="me-2"
-                                aria-label="Pesquisar"
-                            />
-                            <Button variant="outline" className="me-2">
-                                Pesquisar
-                            </Button>
-                        </Form>
+                        <FormSearch items={items}/>
                         <Form>
                             <Form.Check
                                 onChange={changeTheme}

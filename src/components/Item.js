@@ -62,7 +62,7 @@ const Item = ({ name, desc, price, discount, img, isVegan, containsGluten }) => 
 
                     <div className="mt-auto d-flex justify-content-between align-items-center">
                         <Button onClick={handleShow} variant="primary">Detalhes</Button>
-                        <Button variant="primary" className="mt-1"><i className="bi bi-plus-circle"></i></Button>
+                        <Button variant="primary" className="mt-2"><i className="bi bi-plus-circle"></i></Button>
                     </div>
                 </Card.Body>
             </Card>

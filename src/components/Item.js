@@ -85,7 +85,7 @@ const Item = ({ item, name, desc, price, discount, img, isVegan, containsGluten,
                 containsGluten={containsGluten}
                 setShowAlert={setShowAlert}
             />
-            <AlertComponent msg={`Item adicionado à sacola!`} style={'success'} icon={'check-circle-fill'} showAlert={showAlert} setShowAlert={setShowAlert}/>
+            <AlertComponent msg={`Item adicionado à sacola!`} variant={'success'} icon={'check-circle-fill'} showAlert={showAlert} setShowAlert={setShowAlert}/>
         </div>
     );
 };

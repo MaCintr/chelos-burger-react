@@ -1,13 +1,14 @@
 import { Container } from "react-bootstrap"
 import Item from "./Item"
 
-const ItemsList = ({ title, items }) => {
+const ItemsList = ({ title, items, addedItems, setAddedItems }) => {
     return (
         <Container className="my-5 z-3">
             <h1 className="fw-normal">{title}</h1>
             <Container className="overflow-x-scroll d-flex">
                 {items.map(item => (
                     <Item
+                        item={item}
                         key={item.id}
                         name={item.name}
                         desc={item.description}
@@ -16,6 +17,8 @@ const ItemsList = ({ title, items }) => {
                         img={item.image}
                         discount={item.discount}
                         containsGluten={item.containsGluten}
+                        addedItems={addedItems}
+                        setAddedItems={setAddedItems}
                     />
                 ))}
             </Container>

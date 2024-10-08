@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ItemsList from "./ItemsList";
 
-const Deals = ({ items }) => {
+const Deals = ({ items, addedItems, setAddedItems }) => {
   const [deals, setDeals] = useState([]);
 
   useEffect(() => {
@@ -18,7 +18,7 @@ const Deals = ({ items }) => {
     }
   }, [items]);
 
-  return <ItemsList title={"Ofertas do dia"} items={deals} />;
+  return <ItemsList addedItems={addedItems} setAddedItems={setAddedItems} title={"Ofertas do dia"} items={deals} />;
 };
 
 export default Deals;

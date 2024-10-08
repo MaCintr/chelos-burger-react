@@ -2,9 +2,13 @@ import { useState } from "react";
 import { Button, Card } from "react-bootstrap";
 import ItemModal from "./ItemModal";
 
-const Item = ({ name, desc, price, discount, img, isVegan, containsGluten }) => {
+const Item = ({ item, name, desc, price, discount, img, isVegan, containsGluten, addedItems, setAddedItems }) => {
     const [show, setShow] = useState(false);
     const handleShow = () => setShow(true);
+    const handleAddition = () => {
+        setAddedItems([...addedItems, item])
+        console.log(addedItems)
+    }
 
     return (
         <div>
@@ -62,7 +66,7 @@ const Item = ({ name, desc, price, discount, img, isVegan, containsGluten }) => 
 
                     <div className="mt-auto d-flex justify-content-between align-items-center">
                         <Button onClick={handleShow} variant="primary">Detalhes</Button>
-                        <Button variant="primary" className="mt-2"><i className="bi bi-plus-circle"></i></Button>
+                        <Button variant="primary" onClick={handleAddition} className="mt-2"><i className="bi bi-plus-circle"></i></Button>
                     </div>
                 </Card.Body>
             </Card>

@@ -8,6 +8,7 @@ import ItemsList from './components/ItemsList';
 
 function App() {
   const [data, setData] = useState(null);
+  const [addedItems, setAddedItems] = useState([])
 
   useEffect(() => {
     fetch('https://demo4946018.mockable.io/chelos-burger')
@@ -26,15 +27,19 @@ function App() {
       
       {data ? (
         <>
-          <Deals items={data} />
-          <ItemsList title={'Burgers'} items={data.Burgers} />
-          <ItemsList title={'Saladas'} items={data.Saladas} />
-          <ItemsList title={'Aperitivos'} items={data.Aperitivos} />
-          <ItemsList title={'Sobremesas'} items={data.Sobremesas} />
-          <ItemsList title={'Bebidas'} items={data.Bebidas} />
+          <Deals addedItems={addedItems} setAddedItems={setAddedItems} items={data} />
+          <ItemsList title={'Burgers'} addedItems={addedItems} setAddedItems={setAddedItems} items={data.Burgers} />
+          <ItemsList title={'Saladas'} addedItems={addedItems} setAddedItems={setAddedItems} items={data.Saladas} />
+          <ItemsList title={'Aperitivos'} addedItems={addedItems} setAddedItems={setAddedItems} items={data.Aperitivos} />
+          <ItemsList title={'Sobremesas'} addedItems={addedItems} setAddedItems={setAddedItems} items={data.Sobremesas} />
+          <ItemsList title={'Bebidas'} addedItems={addedItems} setAddedItems={setAddedItems} items={data.Bebidas} />
         </>
       ) : (
         <>
+          <LoadingItemList />
+          <LoadingItemList />
+          <LoadingItemList />
+          <LoadingItemList />
           <LoadingItemList />
           <LoadingItemList />
         </>

@@ -4,8 +4,11 @@ import Navbar from "react-bootstrap/Navbar"
 import Offcanvas from "react-bootstrap/Offcanvas"
 import Form from "react-bootstrap/Form"
 import FormSearch from "./FormSearch"
+import ListGroup from "react-bootstrap/ListGroup"
+import { Button } from "react-bootstrap"
+import ItemQtt from "./ItemQtt"
 
-const NavBarComponent = ({ items }) => {
+const NavBarComponent = ({ items, addedItems, setAddedItems }) => {
     const changeTheme = () => {
         const html = document.documentElement
         if (html.getAttribute('data-bs-theme') === 'light') {
@@ -30,7 +33,7 @@ const NavBarComponent = ({ items }) => {
                             <Nav.Link href="#">Bebidas</Nav.Link>
                             <Nav.Link href="#">Contato</Nav.Link>
                         </Nav>
-                        <FormSearch items={items}/>
+                        <FormSearch items={items} />
                         <Form>
                             <Form.Check
                                 onChange={changeTheme}
@@ -54,11 +57,43 @@ const NavBarComponent = ({ items }) => {
                         </Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
-                        <div className="text-center mt-5">
-                            <h4>A sacola está vazia...</h4>
-                            <i class="bi bi-bag-x" style={{ fontSize: '100px' }}></i>
-                            <h5 className="fw-normal">Os itens adicionados aparecerão aqui.</h5>
-                        </div>
+                        {addedItems.length == 0 ? (
+                            <div className="text-center mt-5">
+                                <h4>A sacola está vazia...</h4>
+                                <i class="bi bi-bag-x" style={{ fontSize: '100px' }}></i>
+                                <h5 className="fw-normal">Os itens adicionados aparecerão aqui.</h5>
+                            </div>
+
+                        ) : (
+                            <div>
+                                <ListGroup>
+                                    {addedItems.map(item => (
+                                        <ListGroup.Item className="d-flex align-items-center" key={item.id}>
+                                            <div className="me-2 my-1 rounded overflow-hidden d-flex justify-content-center" style={{ width: '70px', height: '70px' }}>
+                                                <img alt={item.name} src={item.image} height={100} />
+                                            </div>
+                                            <div style={{ width: '100%' }} className="d-flex justify-content-between align-items-center">
+                                                <div>
+                                                    <p>{item.name}</p>
+                                                    <ItemQtt size={"sm"} />
+                                                </div>
+                                                {
+                                                    item.discount == 0 ? (
+                                                        <h4>R${item.price}</h4>
+                                                    ) : (
+                                                        <div>
+                                                            <h5 className="text-decoration-line-through">R${item.price.toFixed(2)}</h5>
+                                                            <h4 className="text-success">R${(item.price * (100 - item.discount) / 100).toFixed(2)}</h4>
+                                                        </div>
+                                                    )
+                                                }
+                                            </div>
+                                        </ListGroup.Item>
+                                    ))}
+                                </ListGroup>
+                                <Button size="lg" className="mt-3">Fazer pedido</Button>
+                            </div>
+                        )}
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>
             </Navbar>

@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div>
-      <NavBarComponent items={data}/>
+      <NavBarComponent addedItems={addedItems} setAddedItems={setAddedItems} items={data}/>
       <Banner />
       
       {data ? (

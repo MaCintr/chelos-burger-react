@@ -1,11 +1,14 @@
 import { useState } from "react";
 import { Button, Card } from "react-bootstrap";
 import ItemModal from "./ItemModal";
+import AlertComponent from "./AlertComponent";
 
 const Item = ({ item, name, desc, price, discount, img, isVegan, containsGluten, addedItems, setAddedItems }) => {
     const [show, setShow] = useState(false);
+    const [showAlert, setShowAlert] = useState(false);
     const handleShow = () => setShow(true);
     const handleAddition = () => {
+        setShowAlert(true)
         setAddedItems([...addedItems, item])
         console.log(addedItems)
     }
@@ -80,7 +83,9 @@ const Item = ({ item, name, desc, price, discount, img, isVegan, containsGluten,
                 img={img}
                 isVegan={isVegan}
                 containsGluten={containsGluten}
+                setShowAlert={setShowAlert}
             />
+            <AlertComponent msg={`Item adicionado à sacola!`} style={'success'} icon={'check-circle-fill'} showAlert={showAlert} setShowAlert={setShowAlert}/>
         </div>
     );
 };

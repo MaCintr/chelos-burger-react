@@ -1,10 +1,12 @@
 import { Modal, Button, Image, FloatingLabel, Form } from "react-bootstrap";
 import ItemQtt from "./ItemQtt";
+import { useState } from "react";
+import AlertComponent from "./AlertComponent";
 
-const ItemModal = ({ show, onHide, name, desc, price, discount, img, isVegan, containsGluten }) => {
+const ItemModal = ({ show, onHide, name, desc, price, discount, img, isVegan, containsGluten, setShowAlert }) => {
 
     const handleSubmit = () => {
-        
+        setShowAlert(true)
         onHide()
     }
 

@@ -57,7 +57,7 @@ const NavBarComponent = ({ items, addedItems, setAddedItems }) => {
                         </Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
-                        {addedItems.length == 0 ? (
+                        {addedItems.length === 0 ? (
                             <div className="text-center mt-5">
                                 <h4>A sacola está vazia...</h4>
                                 <i class="bi bi-bag-x" style={{ fontSize: '100px' }}></i>
@@ -78,7 +78,7 @@ const NavBarComponent = ({ items, addedItems, setAddedItems }) => {
                                                     <ItemQtt size={"sm"} />
                                                 </div>
                                                 {
-                                                    item.discount == 0 ? (
+                                                    item.discount === 0 ? (
                                                         <h4>R${item.price}</h4>
                                                     ) : (
                                                         <div>

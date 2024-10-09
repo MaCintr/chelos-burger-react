@@ -1,10 +1,21 @@
 import { Modal, Button, Image, Form } from "react-bootstrap";
+import { useState } from "react";
 import ItemQtt from "./ItemQtt";
 
-const ItemModal = ({ show, onHide, name, desc, price, discount, img, isVegan, containsGluten, setShowAlert }) => {
+const ItemModal = ({ item, show, onHide, name, desc, price, discount, img, isVegan, containsGluten, setShowAlert, addedItems, setAddedItems }) => {
+
+    const [quantity, setQuantity] = useState(1);
+
+    const handleQuantityChange = (newQuantity) => {
+      setQuantity(newQuantity);
+      console.log('Quantidade atualizada:', newQuantity);
+    };
 
     const handleSubmit = () => {
+        item.quantity = quantity
         setShowAlert(true)
+        setAddedItems([...addedItems, item])
+        console.log(addedItems)
         onHide()
     }
 
@@ -58,7 +69,7 @@ const ItemModal = ({ show, onHide, name, desc, price, discount, img, isVegan, co
                     <p>Imagens da internet</p>
                 </div>
                 <div>
-                    <ItemQtt />
+                    <ItemQtt onQuantityChange={handleQuantityChange}/>
                     <Button className="ms-2" onClick={handleSubmit}>Adicionar à Sacola <i className="bi bi-plus-circle"></i></Button>
                 </div>
             </Modal.Footer>

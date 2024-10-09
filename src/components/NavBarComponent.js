@@ -75,7 +75,7 @@ const NavBarComponent = ({ items, addedItems, setAddedItems }) => {
                                             <div style={{ width: '100%' }} className="d-flex justify-content-between align-items-center">
                                                 <div>
                                                     <p>{item.name}</p>
-                                                    <ItemQtt size={"sm"} />
+                                                    <ItemQtt item={item} qtt={item.quantity} size={"sm"} />
                                                 </div>
                                                 {
                                                     item.discount === 0 ? (

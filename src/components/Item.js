@@ -8,6 +8,7 @@ const Item = ({ item, name, desc, price, discount, img, isVegan, containsGluten,
     const [showAlert, setShowAlert] = useState(false);
     const handleShow = () => setShow(true);
     const handleAddition = () => {
+        item.quantity = 1
         setShowAlert(true)
         setAddedItems([...addedItems, item])
         console.log(addedItems)
@@ -74,6 +75,7 @@ const Item = ({ item, name, desc, price, discount, img, isVegan, containsGluten,
                 </Card.Body>
             </Card>
             <ItemModal
+                item={item}
                 show={show}
                 onHide={() => setShow(false)}
                 name={name}
@@ -84,8 +86,10 @@ const Item = ({ item, name, desc, price, discount, img, isVegan, containsGluten,
                 isVegan={isVegan}
                 containsGluten={containsGluten}
                 setShowAlert={setShowAlert}
+                addedItems={addedItems}
+                setAddedItems={setAddedItems}
             />
-            <AlertComponent msg={`Item adicionado à sacola!`} variant={'success'} icon={'check-circle-fill'} showAlert={showAlert} setShowAlert={setShowAlert}/>
+            <AlertComponent msg={`Item adicionado à sacola!`} variant={'success'} icon={'check-circle-fill'} showAlert={showAlert} setShowAlert={setShowAlert} />
         </div>
     );
 };
